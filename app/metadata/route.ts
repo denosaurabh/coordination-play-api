@@ -1,8 +1,6 @@
 import pinataSDK from "@pinata/sdk";
 import { Readable } from "stream";
 
-export const runtime = "edge";
-
 export async function POST(request: Request): Promise<Response> {
   const resOptions: RequestInit = {
     headers: {
