@@ -1,4 +1,5 @@
-# for Metadata & IPFS
-
+# for org metadata & IPFS, create at pinata.cloud
 PINATA_API_JWT=
+
+# url where frontend is running, most probably it is going to be localhost:5173
 FRONTEND_URL=
